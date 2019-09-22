@@ -79,3 +79,7 @@ h5.branch-name {
     font-size: 1.2rem;
     font-weight: bold;
 }
+.borderRadius{
+    border-radius: .7rem;
+    overflow: hidden;
+}

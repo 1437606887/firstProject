@@ -29,7 +29,7 @@ body{background: #222222;  }
     margin-top: 3rem;
 }
 /*关于我们*/
-.video_module div:nth-child(2){
+.video_module>div:nth-child(2){
     color: white;
     background: #d2b365;
     text-align: end;
