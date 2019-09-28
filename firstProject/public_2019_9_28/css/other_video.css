@@ -40,3 +40,25 @@
   .video-js.vjs-paused .vjs-big-play-button{ 
     display: block;
   }
+
+  @media screen and (max-width:576px){
+    .container{
+        margin-top: 3.52rem;
+        padding-right:0;
+        padding-left: 0;
+        margin-bottom: 0;
+        
+    }
+    .video-content{
+        background: #111;
+        color:#ccc;
+        /* font-size: .9rem; */
+        padding:1rem 1rem 1rem 1rem;
+        margin-bottom: 0;
+    }
+    .video-content h2{
+        font-size: 1.5rem;
+    }
+  }
+
+  

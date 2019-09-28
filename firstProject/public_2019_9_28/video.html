@@ -20,27 +20,35 @@
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
     <link rel="stylesheet" href="css/place.css">
+    <!-- 引入vue和vue-router -->
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+    <!-- 引入视频组件 -->
+    <script src="js/videoJs/v1.js"></script>
+    <script src="js/videoJs/v2.js"></script>
+    <script src="js/videoJs/v3.js"></script>
+    <script src="js/videoJs/v4.js"></script>
+    <script src="js/videoJs/v5.js"></script>
+    <script src="js/videoJs/v6.js"></script>
+    <script src="js/videoJs/v7.js"></script>
+    <script src="js/videoJs/v8.js"></script>
+    <!-- 引入路由模块 -->
+    <script src="js/videoJs/router.js"></script>
 </head>
 <body>
 <header></header>
-<div class='container'>
-        <div class="">
-            <video id="example_video_1" class="video-js vjs-fluid img-fluid" 
-             >
-                <source src="https://cdn-oa-qcloud.jiahewushe.com/video-output/%E5%96%BB%E9%9C%96%20%E7%BC%96%E8%88%9E%20Best%20Part_720.mp4">
-            </video>
-            <div class="video-content">
-                <div class="video-title">
-                    <h2>喻霖老师 编舞作品 - Best Part</h2>
-                </div>
-                <div class="video-intro">
-                    2019-05-08 18:06:01                      
-                    <span> / Jazz</span> <span> / 编舞作品</span>
-                    <p>音乐：Best Part</p>
-                </div>
-            </div>
-        </div>
+<div id="app" class='container'>
+    <router-view></router-view>
 </div>
 <footer></footer>
+<script>
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            
+        },
+        router
+    })
+</script>
 </body>
 </html>
